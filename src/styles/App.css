@@ -1,0 +1,166 @@
+/* frontend/src/styles/App.css */
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+form input {
+  margin: 5px;
+  padding: 8px;
+}
+
+form button {
+  padding: 8px 12px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #0056b3;
+}
+
+/* frontend/src/styles/App.css */
+
+.ContactListContainer {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.ContactListContainer h2 {
+  text-align: center;
+  color: #333;
+}
+
+.ContactList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ContactItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.ContactItem:last-child {
+  border-bottom: none;
+}
+
+.ContactItem button {
+  padding: 5px 10px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.ContactItem button:hover {
+  background-color: #e60000;
+}
+/* frontend/src/styles/App.css */
+
+/* Container for form */
+.ContactForm {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Input fields */
+.ContactForm input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Button */
+.ContactForm button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.ContactForm button:hover {
+  background-color: #0056b3;
+}
+
+/* Optional: Responsive for small screens */
+@media (max-width: 600px) {
+  .ContactForm {
+    padding: 15px;
+  }
+
+  .ContactForm input,
+  .ContactForm button {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
+
+/* frontend/src/styles/App.css */
+
+/* App container */
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* App heading */
+.App h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 2.2rem;
+}
+
+/* Space between form and contact list */
+.ContactForm {
+  margin-bottom: 30px;
+}
+
+/* Optional: add a subtle shadow to containers */
+.ContactListContainer,
+.ContactForm {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .App {
+    padding: 15px;
+  }
+
+  .App h1 {
+    font-size: 1.8rem;
+  }
+}
