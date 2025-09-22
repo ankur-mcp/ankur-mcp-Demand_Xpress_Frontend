@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/contacts"; // backend endpoint
+const API_URL = "http://localhost:1000/api/contacts"; // backend endpoint
 
 // ✅ Add new contact
 export const addContact = async (contactData) => {
